@@ -8,19 +8,16 @@ API para registrar os pontos do funcionários, encaminhando um e-mail com as inf
 ## Práticas adotadas
 
 - MVC
-- JavaServer Pages
 - Consultas com JPA
+
 
 
 ## Tecnologias
  
 - JavaScript
 - HTML/CSS
+- JavaServer Pages
 - [JPA](https://docs.oracle.com/javaee/6/tutorial/doc/bnbqa.html)
 - [Apache Tomcat Versao 9](https://tomcat.apache.org/)
 - [Mysql](https://dev.mysql.com/downloads/)
-
-
-
-
 
