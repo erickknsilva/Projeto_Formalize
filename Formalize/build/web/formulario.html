@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+              integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+              crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./styleFormulario.css">
+        <title>Tela de Cadastro de Serviço</title>
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Forma<span>Lize</span></h1>
+
+
+
+            <section id="home"></section>
+            <ul aria-label="Navegação primaria" class="navegacao-primaria">
+                <li><a class="dropbtn" style="color: #04AA6D" href="./indexUsuario.html" class="active">Home</a></li>
+                <li><a class="dropbtn" href="./telaUsuario.html">Formularios</a></li>
+                <li><a class="dropbtn" href="controle?flag=listarHistorico">Historico</a></li>
+                <img src="img/login.png" alt="logo de login do usuario" class="perfil">
+            </ul>
+
+            <hr class="h"></hr>
+        </header>
+
+        <div class="form">
+            <form method="POST" action="controle"><br>
+                <input type="hidden" name="flag" value="formulario">
+                <h1>Formulario</h1><br><br><br>
+
+                <h2 style="margin-top: -30px" >Cliente</h2><br><br>
+                <label for="tiposerv">Tipo de Serviço:</label>
+                <input type="text" name="tipoS" placeholder="Qual serviço foi prestado?">
+                <label for="valor">Valor:</label>
+                <input type="text" pattern="[0-9]+([,\.][0-9]+)?" name="valor" size="10" placeholder="ValoR$"><br><br>
+                <label for="nome">Nome:</label>
+                <input type="text" size="40" name="nome" placeholder="Nome Completo">
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" placeholder="231.231.321-00"><br><br>
+                <label for="endereco">Endereço:</label>
+                <input type="text" size="40" name="endereco" placeholder="Rua Seila onde">
+                <label for="email">Email:</label>
+                <input type="text" name="email" placeholder="alguem@gmal.com"><br><br>
+                <label for="tel">Tel:</label>
+                <input type="text" name="telefone" placeholder="4002-8922"><br><br>
+                <h2>Veiculo</h2><br><br>
+                <label for="marca">Marca:</label>
+                <input type="text" name="marca" placeholder="Jaguar,BMW,Rolls-Royce,Land Rover">
+                <label for="modelo">Modelo:</label>
+                <input type="text" name="modelo" placeholder="Porsche 911,Audi Tt..."><br><br>
+                <label for="placa">Placa:</label>
+                <input type="text" name="placa" placeholder="2154FWV">
+                <label for="tipo">Tipo:</label>
+                <input type="text" name="tipo" placeholder="Chevrolet Onix,Chevrolet Onix Plus..."><br><br>
+                <label for="ano">Ano:</label>
+                <input type="text" size="15" name="ano" placeholder="Ano de fabrição do automóvel"><br><br>
+
+                <input type="submit" value="Enviar">&nbsp; &nbsp;
+            </form>
+        </div>
+
+        <script src="./scriptFormulario.js"></script>
+    </body>
+
+</html>

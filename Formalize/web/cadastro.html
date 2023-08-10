@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleCadastro.css">
+    <title>Tela de Cadastro</title>
+</head>
+
+<body>
+    <form method="POST" action="controle">
+        <input type="hidden" name="flag" value="cadastro">
+        <div class="container">
+            <div class="form-image">
+                <img src="img/icon.png" alt="Formulario Ilustração">
+
+            </div>
+            <div class="form">
+
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="input-box">
+                        <label for="primeironome">Primeiro Nome</label>
+                        <input type="primeironome" type="text" name="primeiroNome"
+                            placeholder="Digite seu primeiro nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="sobrenome" type="text" name="sobrenome" placeholder="Digite seu Sobrenome"
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" type="text" name="telefone" placeholder="Digite seu Telefone" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua Senha" required>
+                    </div>
+                    <div class="login-button">
+                        <button><a type="submit">Entrar</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

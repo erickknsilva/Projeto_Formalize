@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styleLogin.css">
+        <title>Login Formalize</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <header>
+
+            <h1>Forma<span>Lize</span></h1>
+
+            <section id="home"></section>
+
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <div class="dropdown">
+                        <a class="dropbtn" style="color: #04AA6D" href="./indexUsuario.html" class="active">Home</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="./telaUsuario.html">Formularios</a>
+
+                    </div>
+
+                    <div class="dropdown">
+                        <a class="dropbtn" href="controle?flag=listarHistorico">Historico</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="#perfil"><img width="24px" class="img-icon" src="./img/login.png"
+                                                               alt="logo de login do usuario" class="perfil"></a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+            </nav>
+        </header>
+
+        <form method="POST" action="controle" style="margin-top: -80px">
+            <input type="hidden" name="flag" value="login">
+            <section class="area-login">
+                <div class="login">
+                    <div><img src="img/icon.png">
+                    </div>
+                    <input type="text" name="email" placeholder="Email" autofocus required>
+                    <input type="password" name="senha" placeholder="Senha" autofocus required>
+
+                    <input type="submit" value="Entrar">
+
+                    </form>
+                    <p>Ainda não tem uma conta?<a href="./cadastro.html">criar conta</a></p>
+                </div>
+            </section>
+        </form>
+        <footer>
+            <p style="font-size: 16px;"><strong> &#169;Grupo 4</strong></p>
+        </footer>
+
+    </body>
+</html>
