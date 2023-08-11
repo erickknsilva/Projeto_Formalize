@@ -14,19 +14,21 @@ Esse projeto tem como foco empresas do ramo de tapeçaria de serviços automotiv
 
 ## Práticas adotadas
 
-- MVC
+- MVC(Model, View, Controller)
+- CRUD(Create, Read, Update, Delete)
 - Consultas com JPA
 
 
 
 ## Tecnologias
  
-- JavaScript
-- HTML/CSS
-- JavaServer Pages
-- [JPA](https://docs.oracle.com/javaee/6/tutorial/doc/bnbqa.html)
-- [Apache Tomcat Versao 9](https://tomcat.apache.org/)
-- [Mysql](https://dev.mysql.com/downloads/)
+Servlet
+JavaServer Pages
+HTML/CSS
+JavaScript
+JPA Hibernate
+Apatche Tomcat v 9.0
+Mysql SGBD
 
 ## Integrantes
 
