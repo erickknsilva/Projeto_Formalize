@@ -28,3 +28,10 @@ Esse projeto tem como foco empresas do ramo de tapeçaria de serviços automotiv
 - [Apache Tomcat Versao 9](https://tomcat.apache.org/)
 - [Mysql](https://dev.mysql.com/downloads/)
 
+## Integrantes
+
+Projeto de Integrador 4º Semestre
+- Erick Silva(Eu)
+- Gabriel Solomoyo
+- Gustavo Gabriel
+- Lucas Brendon
