@@ -2,7 +2,7 @@
   Projeto Formalize
 </h1>
 
-Esse projeto tem como foco empresas do ramo de tapeçaria de serviços automotivos, para autonomôs ou pequenos negocios.
+Esse projeto tem como foco empresas do ramo de tapeçaria de serviços automotivos, para autonomôs.
 
 ## Funçoes do projeto
 
@@ -19,17 +19,17 @@ Esse projeto tem como foco empresas do ramo de tapeçaria de serviços automotiv
 - Consultas com JPA
 
 
-
 ## Tecnologias
- 
-Servlet
-JavaServer Pages
-HTML/CSS
-JavaScript
-JPA Hibernate
-Apatche Tomcat v 9.0
-Mysql SGBD
 
+- Servlet
+- JavaServer Pages
+ - HTML/CSS
+- JavaScript
+- [JPA Hibernate](https://docs.oracle.com/javaee/6/tutorial/doc/bnbqa.html)
+- [Apatche Tomcat v 9.0](https://tomcat.apache.org/)
+- [Mysql SGBD](https://dev.mysql.com/downloads/)
+- TagLibs
+- Mysql Connector
 ## Integrantes
 
 Projeto de Integrador 4º Semestre
